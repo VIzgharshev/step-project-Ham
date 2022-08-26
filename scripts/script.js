@@ -44,8 +44,6 @@ filterTabs.addEventListener("click", (event) => {
     event.target.classList.add("filter-active");
     for (const article of allArticles) {
       article.classList.add("hidden-article");
-    }
-    for (const article of allArticles) {
       if (article.getAttribute("data-title") === targetAttr) {
         article.classList.remove("hidden-article");
       }
@@ -56,10 +54,9 @@ filterTabs.addEventListener("click", (event) => {
 function showImgs() {
   document.querySelector(".box").classList.add("hidden-loading");
   const hiddenArticles = document.querySelectorAll(".hidden-article");
-  for (const article of hiddenArticles) {
-    article.classList.remove("hidden-article");
+  for (let i = 0; i < 12; i++) {
+    hiddenArticles[i].classList.remove("hidden-article");
   }
-
 }
 
 buttonMoreImg.addEventListener("click", (event) => {
@@ -67,7 +64,6 @@ buttonMoreImg.addEventListener("click", (event) => {
   document.querySelector(".hidden-loading").classList.remove("hidden-loading");
   setTimeout(showImgs, 2000);
 });
-
 
 // --------------------SLIDER-------------------------------------------------------
 
