@@ -79,7 +79,6 @@
 .home {
   background: url("../imgs/Sections background/section-1(header).jpg") no-repeat
     fixed center/cover;
-  height: 100vh;
   display: flex;
   flex-direction: column;
   align-items: center;
@@ -119,6 +118,10 @@
   font-size: 34px;
   color: #d4d4d4;
   margin-bottom: 129px;
+}
+
+.home .home-content .home-button-wrapper {
+  margin-bottom: 243px;
 }
 
 .home .home-content .home-button-wrapper .home-btn-left {
@@ -587,7 +590,6 @@
   width: 105px;
   display: flex;
   position: relative;
-
 }
 
 .our-amazing-works-wrapper .box .container .circle {
