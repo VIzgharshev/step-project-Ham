@@ -349,6 +349,8 @@
   background: url("../imgs/Sections background/section-22.jpg") no-repeat
     center/cover;
   min-height: 477px;
+  max-width: 1920px;
+  margin: auto;
 }
 
 .purchase-wrapper .purchase-content {
@@ -415,6 +417,8 @@
 
 .our-amazing-works-wrapper {
   min-height: 1212px;
+  max-width: 1920px;
+  margin: auto;
   background-color: #e9edef;
   display: flex;
   flex-direction: column;
@@ -756,6 +760,7 @@
 
 .people-say-wrapper {
   min-height: 954px;
+  max-width: 1920px;
   margin: auto;
   background: url("../imgs/Sections background/section-3.jpg") center/cover
     no-repeat;
