@@ -79,7 +79,6 @@
 .home {
   background: url("../imgs/Sections background/section-1(header).jpg") no-repeat
     fixed center/cover;
-  height: 100vh;
   display: flex;
   flex-direction: column;
   align-items: center;
@@ -119,6 +118,10 @@
   font-size: 34px;
   color: #d4d4d4;
   margin-bottom: 129px;
+}
+
+.home .home-content .home-button-wrapper {
+  margin-bottom: 243px;
 }
 
 .home .home-content .home-button-wrapper .home-btn-left {
@@ -346,6 +349,8 @@
   background: url("../imgs/Sections background/section-22.jpg") no-repeat
     center/cover;
   min-height: 477px;
+  max-width: 1920px;
+  margin: auto;
 }
 
 .purchase-wrapper .purchase-content {
@@ -412,6 +417,8 @@
 
 .our-amazing-works-wrapper {
   min-height: 1212px;
+  max-width: 1920px;
+  margin: auto;
   background-color: #e9edef;
   display: flex;
   flex-direction: column;
@@ -587,7 +594,6 @@
   width: 105px;
   display: flex;
   position: relative;
-
 }
 
 .our-amazing-works-wrapper .box .container .circle {
@@ -754,6 +760,7 @@
 
 .people-say-wrapper {
   min-height: 954px;
+  max-width: 1920px;
   margin: auto;
   background: url("../imgs/Sections background/section-3.jpg") center/cover
     no-repeat;
